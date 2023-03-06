@@ -26,3 +26,9 @@ header {
 .menu{
 
 }
+nav ul,
+nav li {
+list-style: none;
+
+
+}
