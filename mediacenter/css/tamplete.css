@@ -111,7 +111,8 @@ nav a:hover {
 .border1,
 .border2,
 .border3{
-    width: 266px;
+    padding: 20px;
+    width: 275px;
       color: white;
     
     }
@@ -128,6 +129,19 @@ nav a:hover {
 
 }
 .banner_tittle{
-    padding: 10px;
-    margin: 10px;
+    font-size: 21px;
+    }
+.banner_desc{
+    margin: 0px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_options a{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 12;
+    text-decoration: none;
 }
