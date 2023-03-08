@@ -202,5 +202,22 @@ nav a:hover {
     height:2px ;
     background-color: #36a9e1;
     margin-top: 10px;
+}
+article .news_data{
+    display:flex;
+}
+article .news_posted_at{
+    background-color: #2b4c99 ;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+article .news_coments{
+    background-color:#39aae1 ;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
 
 }
