@@ -220,4 +220,21 @@ article .news_coments{
     padding: 10px;
 }
 
+article .news_thumbnail{
+   margin-top: 30px;
+}
+article .news_thumbnail{
+    width: 100%;
+    height: auto;
+}
+article .News_tittle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 23px;
+}
+article .news_resume{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
 }
