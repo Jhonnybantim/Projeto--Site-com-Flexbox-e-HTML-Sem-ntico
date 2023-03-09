@@ -203,6 +203,26 @@ nav a:hover {
     background-color: #36a9e1;
     margin-top: 10px;
 }
+
+
+    
+    
+
+.section{
+ display: flex;
+    flex-wrap: wrap;
+    }
+
+    article {
+        flex: 1;
+        
+        
+    }
+article a {
+    text-decoration: none;
+}
+
+
 article .news_data{
     display:flex;
 }
@@ -237,4 +257,5 @@ article .news_resume{
     color: #5c5c5c;
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 30px;
 }
