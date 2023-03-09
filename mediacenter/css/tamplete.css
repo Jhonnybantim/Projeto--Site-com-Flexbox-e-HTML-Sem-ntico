@@ -68,6 +68,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 600px;
+min-width: 250px;
 
 
 
@@ -213,9 +214,12 @@ nav a:hover {
     article{
         flex: 1;
         min-width: 300px;
+        margin-right: 8px;
+       
     }
 article a {
     text-decoration: none;
+
 }
 
 
