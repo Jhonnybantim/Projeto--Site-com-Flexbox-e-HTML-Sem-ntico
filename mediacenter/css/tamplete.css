@@ -204,19 +204,15 @@ nav a:hover {
     margin-top: 10px;
 }
 
-
     
-    
-
-.section{
- display: flex;
-    flex-wrap: wrap;
+.flex {
+     display: flex;  
+     flex-wrap: wrap;               
+      
     }
-
-    article {
+    article{
         flex: 1;
-        
-        
+        min-width: 300px;
     }
 article a {
     text-decoration: none;
@@ -240,12 +236,11 @@ article .news_coments{
     padding: 10px;
 }
 
-article .news_thumbnail{
-   margin-top: 30px;
-}
+
 article .news_thumbnail{
     width: 100%;
     height: auto;
+    margin-top: 30px;
 }
 article .News_tittle{
     margin-top: 25px;
