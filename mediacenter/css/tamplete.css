@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 300px;
+   
     
 }
 
@@ -265,13 +265,15 @@ footer{
     justify-content: center;
 }
 .footer_menu{ 
-    display: flex;
+    width: 930px;
+       display: flex;
     
 
 }
 
-.fm_1, .fm_2, .fm_3{ 
-    flex: 1;
+.fm_1, .fm_2, .fm_3{
+    
+    
     color: white;
 padding: 20px;} 
     
@@ -279,39 +281,53 @@ padding: 20px;}
 
 
 .fm_1 {
-    width: 307px;
+    width:270px; 
     background-color: #39aae1;
 }
 
 .fm_2 {
+    width:270px; 
     background-color: #0079c7;
 
 }
 
 .fm_3 {
-    font-size: 12px;
-
+    width:270px; 
     background-color: #2b4c99;
 
 }
 .footer_area{
-    font-display: flex;
-    flex-direction: column;
-    background-color: royalblue;
-     color: white;
+    width: 930px;
+    display: flex;
+     
           
 }
-.footer_areaitem{
-    width: 630px;
-   flex: 1;
+.item{
+    padding: 20px;
+    width: 270px;
+    
+   flex-direction: row;
    color: white;
 
 }
 .containner {
-   margin-right: 325px;
+   margin-right: 313px;
     width: 630px;
 }
 
 .flexcolum{
     flex-direction: column ;
+}
+
+footer .widget_tittle_text{ 
+    color: white;
+}
+.footer_copy{ 
+    color:#5c5c5c;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #5c5c5c;
+    font-size: 12px ;
+    margin-top: 30px;
+
 }
