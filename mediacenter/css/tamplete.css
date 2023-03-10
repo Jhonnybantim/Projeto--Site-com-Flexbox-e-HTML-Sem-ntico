@@ -271,28 +271,32 @@ footer{
 
 }
 
-.fm_1, .fm_2, .fm_3{
-    
-    
+.fm_1, .fm_2, .fm_3{      
     color: white;
-padding: 20px;} 
+} 
     
+.footer_menu a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
 
 
 
 .fm_1 {
-    width:270px; 
+    width:300px; 
     background-color: #39aae1;
 }
 
 .fm_2 {
-    width:270px; 
+    width:300px; 
     background-color: #0079c7;
 
 }
 
 .fm_3 {
-    width:270px; 
+    width:300px; 
     background-color: #2b4c99;
 
 }
@@ -330,4 +334,7 @@ footer .widget_tittle_text{
     font-size: 12px ;
     margin-top: 30px;
 
+}
+.footer_copy b{
+    color: white;
 }
