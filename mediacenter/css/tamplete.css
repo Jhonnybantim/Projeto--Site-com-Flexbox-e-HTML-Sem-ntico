@@ -8,6 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     padding-bottom: 300px;
+    
 }
 
 header {
@@ -257,4 +258,60 @@ article .news_resume{
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 30px;
+}
+footer{ 
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.footer_menu{ 
+    display: flex;
+    
+
+}
+
+.fm_1, .fm_2, .fm_3{ 
+    flex: 1;
+    color: white;
+padding: 20px;} 
+    
+
+
+
+.fm_1 {
+    width: 307px;
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+
+}
+
+.fm_3 {
+    font-size: 12px;
+
+    background-color: #2b4c99;
+
+}
+.footer_area{
+    font-display: flex;
+    flex-direction: column;
+    background-color: royalblue;
+     color: white;
+          
+}
+.footer_areaitem{
+    width: 630px;
+   flex: 1;
+   color: white;
+
+}
+.containner {
+   margin-right: 325px;
+    width: 630px;
+}
+
+.flexcolum{
+    flex-direction: column ;
 }
