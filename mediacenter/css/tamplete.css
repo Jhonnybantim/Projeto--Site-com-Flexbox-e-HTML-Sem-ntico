@@ -307,8 +307,8 @@ footer{
           
 }
 .item{
-    padding: 20px;
-    width: 270px;
+    
+    width: 300px;
     
    flex-direction: row;
    color: white;
@@ -324,6 +324,7 @@ footer{
 }
 
 footer .widget_tittle_text{ 
+    margin-right: 30px;
     color: white;
 }
 .footer_copy{ 
@@ -337,4 +338,31 @@ footer .widget_tittle_text{
 }
 .footer_copy b{
     color: white;
+}
+.item p{ 
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-right:  20px;
+
+}
+.caixaender{ 
+    display: flex;
+
+}
+.footerender{ 
+    margin-top: 20px;
+    line-height: 2px;
+}
+.footerender2{ 
+    
+    margin-left: 20px;
+    margin-top: 35px;
+    line-height: 2px;
+}
+.footerender2 j{
+    color: white;
+}
+.logos{ 
+    display: flex;
+    
 }
