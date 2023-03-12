@@ -374,7 +374,18 @@ address{
 .iclogs{
     margin: 2px;
 }
+  
+.widget a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 12;
+    
+}
+.widget b{ 
+    color: #25a2cb;
+}
 .widget1 p{ 
+    justify-content: center;
     color: white;
     margin: 5px;
 }
