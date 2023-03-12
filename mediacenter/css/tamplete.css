@@ -345,7 +345,11 @@ footer .widget_tittle_text{
     margin-right:  20px;
 
 }
+address{
+    font-style: normal;
+}
 .caixaender{ 
+
     display: flex;
 
 }
@@ -363,6 +367,10 @@ footer .widget_tittle_text{
     color: white;
 }
 .logos{ 
+    margin-top: 20px;
     display: flex;
-    
+   
+}
+.iclogs{
+    margin: 1px;
 }
