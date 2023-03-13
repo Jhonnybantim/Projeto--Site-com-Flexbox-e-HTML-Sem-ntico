@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media (max-width:600px) {
+    .banner_headline h1 {
+        margin-left: 185px;
+    }
+    .banner_headline h2 {
+        color: white;
+        font-size: 19px;
+        text-shadow: 0px 1px 0px #555555;
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        margin-top: 48px;
+        margin-left: 191px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .border2, .border3, .border1{ 
+        margin: auto;
+        text-align: center;
+        width: 571px;
+    }
+    .container{ 
+        flex-direction: column;
+    }
+
+}
