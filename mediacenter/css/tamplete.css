@@ -383,6 +383,11 @@ address{
 }
 .widget b{ 
     color: #25a2cb;
+    
+}
+.widget c{ 
+    color: white;
+    
 }
 .widget1 p{ 
     justify-content: center;
