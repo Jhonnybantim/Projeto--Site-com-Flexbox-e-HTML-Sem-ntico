@@ -227,6 +227,25 @@ article a {
 article .news_data{
     display:flex;
 }
+
+article .news_posted_at{ 
+    position: relative;
+    background-color: #2b4c99;
+    
+}
+
+
+article .news_posted_at::before {
+    content: '';
+    position: absolute;
+    top: 98%;
+   margin-left: -11px; /* metade da largura da ponta */
+    border-width: 10px;
+    border-style: solid;
+    border-color: #2b4c99 transparent transparent transparent;
+    transform: rotate(4deg);
+  }
+
 article .news_posted_at{
     background-color: #2b4c99 ;
     color: white;
