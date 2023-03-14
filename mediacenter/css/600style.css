@@ -15,7 +15,7 @@ header{
     flex-direction: row;
 }
     .banner_headline h1 {
-        margin-left: 185px;
+        margin-left: 75px;
     }
     .dias{ 
         margin-left: 161px;
@@ -36,7 +36,7 @@ header{
         padding: 0;
         width: 350px;
         margin-top: 48px;
-        margin-left: 191px;
+        margin-left: 79px;
     }
     .banner_options{
         height: auto;
