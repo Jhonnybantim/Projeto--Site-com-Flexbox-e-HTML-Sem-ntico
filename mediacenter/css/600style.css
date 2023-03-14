@@ -26,6 +26,10 @@
         width: 571px;
     }
     
+  .flex{
+    flex-direction: column;
+  }
+
     
 section {
     text-align: center;
@@ -39,6 +43,9 @@ section {
 
     header {
         height: auto;
+    }
+    aside{
+        display: none;
     }
 
 }
