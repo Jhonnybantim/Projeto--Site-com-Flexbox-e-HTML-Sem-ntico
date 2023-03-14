@@ -2,6 +2,8 @@
 
 @media (max-width:600px) {
     body,html {
+    
+       text-align: center;
        
         width:600px ;
         margin: 0px;
@@ -68,6 +70,31 @@
     .footer_menu{ 
         display: flex;
         flex-direction: column;
+    }
+    .fm_1, .fm_2,  .fm_3 {
+     margin-left: 25px; 
+        margin: auto;
+        text-align: center;
+        width: 600px;
+    }
+    .footer_area{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .item{ 
+        text-align: center;
+        width: 300px;
+        flex-direction: row;
+        color: white;
+        margin-left: 321px;
+        margin-bottom: 20px;
+
+    }
+
+    .footer_copy{
+        margin-left: 50%;
+        text-align: center;
     }
 
 }
