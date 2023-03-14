@@ -1,8 +1,20 @@
 @charset "UTF-8";
 
 @media (max-width:600px) {
+    body,html {
+       
+        width:600px ;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
     .banner_headline h1 {
         margin-left: 185px;
+    }
+    article{
+        overflow: hidden;
+        padding-left: 20px;
     }
     .banner_headline h2 {
         color: white;
@@ -30,11 +42,19 @@
     flex-direction: column;
   }
 
+  .conteiner{ 
+    flex-direction:column;
+  }
     
-section {
+#section .geral {
+    display: flex;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 250px;
         flex-direction: column;
+    }
+
+    #geral{
+        margin-top: 250px;
     }
     nav ul{
         display: none;
@@ -44,8 +64,10 @@ section {
     header {
         height: auto;
     }
-    aside{
-        display: none;
+    
+    .footer_menu{ 
+        display: flex;
+        flex-direction: column;
     }
 
 }
