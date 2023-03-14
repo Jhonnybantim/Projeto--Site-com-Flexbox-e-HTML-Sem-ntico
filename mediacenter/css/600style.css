@@ -10,7 +10,10 @@
         padding: 0px;
     }
 
-
+header{ 
+    display: flex;
+    flex-direction: row;
+}
     .banner_headline h1 {
         margin-left: 185px;
     }
@@ -52,7 +55,8 @@
   }
 
   .conteiner{ 
-    flex-direction:column;
+    display: flex;
+    flex-direction:row;
   }
     
 #section .geral {
@@ -66,12 +70,25 @@
         margin-top: 250px;
     }
     nav ul{
-        display: none;
+          display: none;       
         flex-direction: column;
     }
+.logo{ 
+    margin-left: 20px;
+}
+    .Menumobile{ 
+        margin-right: 23px;
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
 
     header {
         height: auto;
+    }
+    .widget_tittle_bar{
+        margin-left: 250px;
     }
     
     .footer_menu{ 
