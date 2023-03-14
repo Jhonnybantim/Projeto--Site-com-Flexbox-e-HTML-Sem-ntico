@@ -25,8 +25,20 @@
         text-align: center;
         width: 571px;
     }
-    .container{ 
+    
+    
+section {
+    text-align: center;
+    margin-top: 70px;
         flex-direction: column;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+    }
+
+    header {
+        height: auto;
     }
 
 }
